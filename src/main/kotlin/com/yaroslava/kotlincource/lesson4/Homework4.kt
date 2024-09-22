@@ -1,6 +1,6 @@
 package com.yaroslava.kotlincource.lesson4
 
-class homework4 {
+class Homework4 {
     val myInt: Int = 42
     val myLong: Long = 98765432123456789L
     val myFloat: Float = 23.45f
@@ -13,7 +13,7 @@ class homework4 {
     val secFloat: Float = 18.0f
     val secDouble: Double = -0.001
     val secString: String = "OpenAI"
-    val thString: String = "true”
+    val thString: String = "true”"
     val secChar: Char = '9'
     val thInt: Int = 2048
     val thLong: Long = 10000000000L
@@ -28,7 +28,7 @@ class homework4 {
     val fourDouble: Double = -273.15
     val fiveString: String = "SpaceX"
     val thBoolean: Boolean = true
-    val sixString: String = “🤯”
+    val sixString: String = "“🤯”"
     val sevenString: String ="‘65535’"
     val fiveLong: Long = 72057594037927935L
     val fiveFloat: Float = 2.71828f
