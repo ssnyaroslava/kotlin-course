@@ -1,4 +1,4 @@
-package com.yaroslava.kotlincource.lesson3
+//package com.yaroslava.kotlincource.lesson3
 
 class homework3 {
 
@@ -21,7 +21,7 @@ class homework3 {
         private set(value) {field=value}
 //Количество участников
 
-    var duration: Long = 5*60*60
+    var duration1: Long = 5*60*60
     //Длительность хакатона
 
    private lateinit var contactInfo: String
@@ -107,12 +107,12 @@ class homework3 {
 
     var availablePlace: Int = 15
         get() = field
-        set(value!=0) {
+        set(value) {
             var value = 20
             field=value}
     //Количество свободных мест для отдыха (например, кресел или диванов), сеттер валидирует, чтобы количество не было меньше нуля.
 
-    private val journalistPlan = String = "план"
+    private val journalistPlan: String = "план"
     //План взаимодействия с прессой
 
     val project: String by lazy {""}
@@ -127,7 +127,7 @@ class homework3 {
     val totalReport: String by lazy {""}
     //Отчет, включающий фотографии, видео и отзывы, генерируется и становится доступен после завершения мероприятия.
 
-   private val: String = "система распределения"
+   private val sysrem:  String = "система распределения"
     //План распределения призов
 
     private val contactEmergency: String = "список контактов"
@@ -153,4 +153,4 @@ val duration: Int = 180
 
 
 
-}
+}//
